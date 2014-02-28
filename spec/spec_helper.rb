@@ -7,7 +7,7 @@ require 'capybara/poltergeist'
 # Capybara configuration
 
 Capybara.configure do |config|
-  config.default_wait_time = 20
+  config.default_wait_time = 60
   config.run_server = false
   config.default_driver = :poltergeist
   config.app_host = 'http://app.scribewiz.com:3000'
